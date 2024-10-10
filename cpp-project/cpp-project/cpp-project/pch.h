@@ -13,3 +13,4 @@
 #include <functional>
 #include <thread>
 #include <chrono>
+#include <algorithm>

@@ -417,7 +417,125 @@ void Test12()
 	Hello1();
 	//Hello2();
 }
+//
+//
+//Test13.排序
+void Test13()
+{
+	std::vector<int> expSort = { 4, 1, 5, 3, 2 };
+	std::sort(expSort.begin(), expSort.end());
+	for (auto value : expSort)
+		std::cout << value << " ";
+	std::cout << "\n";
 
+	std::cout << "-----------------" << std::endl;
+
+	std::sort(expSort.begin(), expSort.end(), [](int a, int b)
+		{
+			if (a == 1)
+				return true;
+			if (b == 1)
+				return false;
+			return a > b;
+		});
+	for (auto value : expSort)
+		std::cout << value << " ";
+	std::cout << "\n";
+
+}
+//
+//
+//Test14.类型双关-转换
+class Base
+{
+public:
+	Base()
+	{
+		std::cout << "Base constructed!" << std::endl;
+	}
+	virtual ~Base()
+	{
+		std::cout << "Base destroyed!" << std::endl;
+	}
+};
+
+class Derived : public Base
+{
+public:
+	Derived()
+	{
+		std::cout << "Derived constructed!" << std::endl;
+	}
+	~Derived()
+	{
+		std::cout << "Derived destroyed!" << std::endl;
+	}
+};
+
+void Test14()
+{
+	int a = 5;
+	
+	//常见转换
+	double c = static_cast<double>(a);
+	std::cout << c << std::endl;
+	std::cout << "-------------\n";
+	
+	//指针转换
+	double* d = reinterpret_cast<double*>(&a);
+	std::cout << d << std::endl;
+	std::cout << "-------------\n";
+
+	//多态类转换
+	Base* expBase = new Derived();
+	Derived* expDerived = dynamic_cast<Derived*>(expBase);
+	delete expDerived;
+}
+//
+//
+//Test15.联合体
+struct Vector2
+{
+	float x, y;
+};
+
+struct Vector4
+{
+	union
+	{
+		struct
+		{
+			float x, y, z, w;
+		};
+		struct
+		{
+			Vector2 a, b;
+		};
+	};
+};
+
+void PrintVector(const Vector2& expVector)
+{
+	std::cout << expVector.x << ", " << expVector.y << std::endl;
+}
+
+void Test15()
+{
+	Vector4 expVector = { 1.0f, 2.0f, 3.0f, 4.0f };
+	PrintVector(expVector.a);
+	PrintVector(expVector.b);
+
+	expVector.w = 3.14f;
+	PrintVector(expVector.b);
+}
+//
+//
+//Test16.
+
+
+
+// 
+//
 int main()
 {
 	//Test1();
@@ -432,6 +550,9 @@ int main()
 	//Test10();
 	//Test11();
 	//Test12();
+	//Test13();
+	//Test14();
+	Test15();
 
 	return 0;
 }
