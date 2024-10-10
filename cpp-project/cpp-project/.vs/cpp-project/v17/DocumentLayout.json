@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\repos\\cpp-project\\cpp-project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1000664F-6D5E-43B8-A18B-198FBC611234}|cpp-project\\cpp-project.vcxproj|C:\\repos\\cpp-project\\cpp-project\\cpp-project\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1000664F-6D5E-43B8-A18B-198FBC611234}|cpp-project\\cpp-project.vcxproj|solutionrelative:cpp-project\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1000664F-6D5E-43B8-A18B-198FBC611234}|cpp-project\\cpp-project.vcxproj|C:\\repos\\cpp-project\\cpp-project\\cpp-project\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1000664F-6D5E-43B8-A18B-198FBC611234}|cpp-project\\cpp-project.vcxproj|solutionrelative:cpp-project\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1000664F-6D5E-43B8-A18B-198FBC611234}|cpp-project\\cpp-project.vcxproj|C:\\repos\\cpp-project\\cpp-project\\cpp-project\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1000664F-6D5E-43B8-A18B-198FBC611234}|cpp-project\\cpp-project.vcxproj|solutionrelative:cpp-project\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "pch.h",
+              "DocumentMoniker": "C:\\repos\\cpp-project\\cpp-project\\cpp-project\\pch.h",
+              "RelativeDocumentMoniker": "cpp-project\\pch.h",
+              "ToolTip": "C:\\repos\\cpp-project\\cpp-project\\cpp-project\\pch.h",
+              "RelativeToolTip": "cpp-project\\pch.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-09T12:44:48.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "pch.cpp",
+              "DocumentMoniker": "C:\\repos\\cpp-project\\cpp-project\\cpp-project\\pch.cpp",
+              "RelativeDocumentMoniker": "cpp-project\\pch.cpp",
+              "ToolTip": "C:\\repos\\cpp-project\\cpp-project\\cpp-project\\pch.cpp",
+              "RelativeToolTip": "cpp-project\\pch.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-09T12:50:57.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\repos\\cpp-project\\cpp-project\\cpp-project\\main.cpp",
+              "RelativeDocumentMoniker": "cpp-project\\main.cpp",
+              "ToolTip": "C:\\repos\\cpp-project\\cpp-project\\cpp-project\\main.cpp",
+              "RelativeToolTip": "cpp-project\\main.cpp",
+              "ViewState": "AgIAAJcBAAAAAAAAAAAAAKcBAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-09T01:08:46.005Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
