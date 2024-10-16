@@ -22,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\repos\\cpp-project\\cpp-project\\cpp-project\\main.cpp",
+              "RelativeDocumentMoniker": "cpp-project\\main.cpp",
+              "ToolTip": "C:\\repos\\cpp-project\\cpp-project\\cpp-project\\main.cpp",
+              "RelativeToolTip": "cpp-project\\main.cpp",
+              "ViewState": "AgIAAJ4BAAAAAAAAAAAAAAMCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-09T01:08:46.005Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -34,8 +47,7 @@
               "RelativeToolTip": "cpp-project\\pch.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-09T12:44:48.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T12:44:48.707Z"
             },
             {
               "$type": "Document",
@@ -48,19 +60,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-09T12:50:57.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\repos\\cpp-project\\cpp-project\\cpp-project\\main.cpp",
-              "RelativeDocumentMoniker": "cpp-project\\main.cpp",
-              "ToolTip": "C:\\repos\\cpp-project\\cpp-project\\cpp-project\\main.cpp",
-              "RelativeToolTip": "cpp-project\\main.cpp",
-              "ViewState": "AgIAAL0BAAAAAAAAAAAAAAMCAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-09T01:08:46.005Z",
-              "EditorCaption": ""
             }
           ]
         }
